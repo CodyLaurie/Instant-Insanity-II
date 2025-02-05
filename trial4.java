@@ -47,13 +47,13 @@ public class trial4{
 		pn("-------------------");
 		pn("Running simulation");
 		long beg = System.nanoTime();
-		for(int i = 0; i <20; i++){
+		for(int i = 0; i <1000; i++){
 
 		pn("Running simulation: " + i);
 
 		pn("-------------------");
 		solved = false;
-		cpuzzlegen(10,10);
+		cpuzzlegen(40,3);
 		//input();
 		scramble();
 			
