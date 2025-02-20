@@ -55,7 +55,7 @@ public class trial4{
 		solved = false;
 		cpuzzlegen(40,3);
 		//input();
-		scramble();
+		//scramble();
 			
 		// it is crucial to note that the puzzle generators location means that we do
 		// not count the generation as part of the solve time 
@@ -706,15 +706,6 @@ public class trial4{
 		}
 	}
 	
-	/*
-	 * After discussions with professor dye I am more confident with my prior assertion
-	 * that we can solve this in polynomial time (((#col-1)(Floor(rows/#col))-1)!
-	 * I am hoping we can do this by counting the number of possible permutations
-	 * of each piece. if the number of pieces exceed this number or the more optimal
-	 * (ceiling(rows))/2 for size 3 we will know for one there is no solution.
-	 * but how do we try everything properly. I think the brute force I developed
-	 * already does this actually this seems to be an innate aspect of the problem
-	 */
 	//commands for printing my first CS professor showed us print line and print new line
 	public static <E> void pl(E item){
 		System.out.print(item + " ");
